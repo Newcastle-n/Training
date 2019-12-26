@@ -160,7 +160,7 @@ a:hover{
   .grid-c{
     display: grid;
     /* margin-top: 1em; */
-    grid-template-columns:10vw auto auto 20vw;
+    grid-template-columns:2fr 6fr 6fr 2.5fr;
     grid-template-areas: 
       "header header header header"
       "sidebar content content sidebar2"
@@ -171,7 +171,7 @@ a:hover{
     grid-area: content;
     display: grid;
     grid-template-columns: repeat(4 , auto);
-    grid-template-rows: repeat(5 , auto);
+    grid-template-rows: repeat(4 , auto);
     grid-gap: 0.2em;
   }
   .cors-0{
